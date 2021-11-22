@@ -1,0 +1,8 @@
+User : What you can do
+Bot : We offer lot courses on programming language for Software Developers
+User : What do you teach in AWS
+Bot : We cover AWS from beginer to expert
+User : What are the courses do you provide on Data Science
+Bot : We provide Data Analytics,Data Visualization,Machine Learning,Deep Learning and NLP
+User : Who is mentor for Course on Web Development with Java
+Bot : We provide basics of web tech like HTML, CSS, JScript, JQuerry and Java JDBC,Servlets,JSP 

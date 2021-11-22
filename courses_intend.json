@@ -1,0 +1,662 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "We offer lot courses on programming language for Software Developers",
+            "This is a Durga Software institute we provide hands on training for student and working professionals on latest technologies"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"courses_offered",
+         "patterns":[
+            "What are the courses do you provide?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses":[
+            "We provide training  on various programming languages like C,C++,Python,Java,Web Technoligies,Cloud Technologies,Data Base,Data              Science,Big Data",
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Placement_details",
+         "patterns":[
+            "Do you provide placements support?"
+         ],
+         "responses":[
+            "Yes, we provide placment to all students who have enrolled course in our institute based on internal assesments which are                  conducted by institute at regular interval of time"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"C_language",
+         "patterns":[
+            "What will you tech on C language?"
+         ],
+         "responses":[
+            "We will cover all concepts from basic to advanced level in C"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"C_language_duration",
+         "patterns":[
+            "What will be duration of C language course?"
+         ],
+         "responses":[
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"C_language_fees",
+         "patterns":[
+            "What is the cost of C language course?"
+         ],
+         "responses":[
+            "Cost of course is Rs.1999/- only"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"C_language_mentor",
+         "patterns":[
+            "Who is mentor of C language course?"
+         ],
+         "responses":[
+            "Mr.Kiran is the mentor for the course"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"C_language_syllabus",
+         "patterns":[
+            "What is syllabus of C language course?"
+         ],
+         "responses":[
+            "The Syllabus is Basics, Input/Output, Data Types, Variables, Operators, Control Flow, Functions, Memorey Organisations,                      Pointer,Arrays,Strings,Macros,Structres and Union, File handling"
+         ],
+         "context":[
+            ""
+         ]
+      },   
+      {
+         "tag":"Python",
+         "patterns":[
+            "What are the courses do you provide on python?",
+            "Python course",
+            "py course"
+         ],
+         "responses":[
+            "We provide Core and Advanced Python,Data Structures with Python,Web Backend with Python,Data Science with Python"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Python_duration",
+         "patterns":[
+            "What is duration of Course for Core and Advance Python?"
+         ],
+         "responses":[
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Python_Cost",
+         "patterns":[
+            "What is the Cost for Core and Advanced Python?"
+         ],
+         "responses":[
+            "Cost for Core and Advanced Python is Rs 5000.00"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Python_Mentor",
+         "patterns":[
+            "Who is mentor for Course on Core and Advanced Python?"
+         ],
+         "responses":[
+            "Mr.Durga is mentor for Course on Core and Advanced Python"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Python_Syllabus",
+         "patterns":[
+            "Can you provide full syllabus for Core and Advanced Python?"
+         ],
+         "responses":[
+            "The Syllabus is Basics, Input/Output, Data Types, Variables, Operators, Control Flow, Functions, Object Oriented Concepts,                  Exception Handling, Python Collections, OS concepts, Threads, Regular Expressions, Data Bases, Files"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Data_science",
+         "patterns":[
+            "What are the courses do you provide on Data Science?"
+         ],
+         "responses":[
+            "We provide Data Analytics,Data Visualization,Machine Learning,Deep Learning and NLP"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Data_science_duration",
+         "patterns":[
+            "What is duration of Course for Data Science?"
+         ],
+         "responses":[
+            "Duration of course is 6 Months and 4 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Data_science_cost",
+         "patterns":[
+            "What is the Cost for Corse on Data Science?"
+         ],
+         "responses":[
+            "Cost for Corse on Data Science  is Rs 35000.00"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Data_science_mentor",
+         "patterns":[
+            "Who is mentor for Course on Data Science?"
+         ],
+         "responses":[
+            "Mr.Krish is mentor for Course on Data Science"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Data_science_syllabus",
+         "patterns":[
+            "Can you provide full syllabus for Data science?"
+         ],
+         "responses":[
+            "The Syllabus is Numpy and Pandas for data analytics, Matplotlib and seaborn for data visualization, Supervised - UnSupervised -              Reinforcement Learning-Clustering - PCA - Aprori&Elcat for machine learning, ANN-CNN-RNN-GAN for Deep learning, Word Embedding-              Word to Rec-Bag of Words-Stemming for NLP"
+         ],
+         "context":[
+            ""
+         ]
+      },  
+      {
+         "tag":"Big_data",
+         "patterns":[
+            "What do you teach in big-data?"
+         ],
+         "responses":[
+            "We cover hadoop and spark concepts using python/scala"
+         ],
+         "context":[
+            ""
+         ]
+      },  
+      {
+         "tag":"Big_data_duration",
+         "patterns":[
+            "What is the duration of big-data course?"
+         ],
+         "responses":[
+            "Duration of course is 6 Months and 4 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Big_data_mentor",
+         "patterns":[
+            "Who is mentor for this course?"
+         ],
+         "responses":[
+            "Mr.Vijay is the mentor for this course"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Big_data_fees_details",
+         "patterns":[
+            "Who is fees for big data course course?"
+         ],
+         "responses":[
+            "Cost for this course is Rs.10000"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Big_data_syllabus",
+         "patterns":[
+            "Can you provide full syllabus for Data science?"
+         ],
+         "responses":[
+            "The Syllabus is HDFS,Map-Reduce,Sqoop,Yarn,Pig,Hive,NoSql,Hbase,Spark Core,RDD,Persistence options,Gruoping and                               Aggetation,SparkSQL and Spark Application"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"AWS",
+         "patterns":[
+            "What do you teach in AWS?"
+         ],
+         "responses":[
+            "We cover AWS from beginer to expert"
+         ],
+         "context":[
+            ""
+         ]
+      },  
+      {
+         "tag":"AWS_duration",
+         "patterns":[
+            "What is the duration of AWS course?"
+         ],
+         "responses":[
+            "Duration of course is 3 Months and 2 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"AWS_mentor",
+         "patterns":[
+            "Who is mentor for this course?"
+         ],
+         "responses":[
+            "Mr.Srinivas is the mentor for this course"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"AWS_fees_details",
+         "patterns":[
+            "Who is fees for AWS course course?"
+         ],
+         "responses":[
+            "Cost for this course is Rs.3500"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"AWS_syllabus",
+         "patterns":[
+            "Can you provide full syllabus for AWS?"
+         ],
+         "responses":[
+            "The Syllabus is EC2,EBS,Elastic IP address,Identity and Access Management (IAM),S3,Glacier,VPC,Auto Scaling,Elastic Load                    Balancer,cloud watch,Simple notification service (SNS), Route 53, Cloud front, Elastic Bean Stalk,Simple Queue Service(SQS),                Cloud formation and RDS"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Java",
+         "patterns":[
+            "What are the courses do you provide on Java?"
+         ],
+         "responses":[
+            "We provide Core and Advanced Java,Data Structures with Java,Web Backend with Java(JDBC,Servelets,JSP),Frameworks"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Java_duration",
+         "patterns":[
+            "What is duration of Course for Core and Advance Java?"
+         ],
+         "responses":[
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Java_Cost",
+         "patterns":[
+            "What is the Cost for Core and Advanced Java?"
+         ],
+         "responses":[
+            "Cost for Core and Advanced Java is Rs 5000.00"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Java_Mentor",
+         "patterns":[
+            "Who is mentor for Course on Core and Advanced Java?"
+         ],
+         "responses":[
+            "Mr.Nagoor is mentor for Course on Core and Advanced Python"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Java_Syllabus",
+         "patterns":[
+            "Can you provide full syllabus for Core and Advanced Java?"
+         ],
+         "responses":[
+            "The Syllabus is Basics, Input/Output, Data Types, Variables, Operators, Control Flow, Functions, Object Oriented Concepts,                  Exception Handling, Collections, OS concepts, Threads, Regular Expressions, Files, Serialization and Deserialization, Inner                  Class, Java.lang.package"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Java_Frameworks",
+         "patterns":[
+            "What are the courses do you provide on Java FrameWork?"
+         ],
+         "responses":[
+            "We provide Java Frameworks like Hibernate, Struts and SpringBoot "
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Java_Frameworks_duration",
+         "patterns":[
+            "What is duration of Course for Core and Advance Java?"
+         ],
+         "responses":[
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Java_Frameworks_cost",
+         "patterns":[
+            "What is the Cost for Core and Advanced Java?"
+         ],
+         "responses":[
+            "Cost for  Java Frameworks is Rs 3000.00"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Java_Frameworks_mentor",
+         "patterns":[
+            "Who is mentor for Course on Core and Advanced Java?"
+         ],
+         "responses":[
+            "Mr.Nagoor is mentor for Course on Java FrameWorks"
+         ],
+         "context":[
+            ""
+         ]
+      },  
+      {
+         "tag":"Java_Frameworks_syllabus",
+         "patterns":[
+            "Can you provide full syllabus for Core and Advanced Java?"
+         ],
+         "responses":[
+            "Please vist  durgasoft javaframeworks works web site for entire details"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Web_Development_Python",
+         "patterns":[
+            "What are the courses do you provide on Web Development with Python?"
+         ],
+         "responses":[
+            "We provide basics of web tech like HTML, CSS, JScript, JQuerry and Django + REST API with Python"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Web_Development_Python_duration",
+         "patterns":[
+            "What is duration of Course for Web Development with Python?"
+         ],
+         "responses":[
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Web_Development_Python_cost",
+         "patterns":[
+            "What is the Cost for Web Development with Python?"
+         ],
+         "responses":[
+            "Cost for  Python with web-development is Rs 5000.00"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Web_Development_Python_mentor",
+         "patterns":[
+            "Who is mentor for Course on Web Development with Python?"
+         ],
+         "responses":[
+            "Mr.Durga is mentor for Course on Web Development with Python"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Web_Development_Python_syllabus",
+         "patterns":[
+            "Can you provide full syllabus for Web Development with Python?"
+         ],
+         "responses":[
+            "Please refer durgasoft website for web-tech syllabus and django"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Web Development Java",
+         "patterns":[
+            "What are the courses do you provide on Web Development with Java?"
+         ],
+         "responses":[
+            "We provide basics of web tech like HTML, CSS, JScript, JQuerry and Java JDBC,Servlets,JSP "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Web_Development_Java_duration",
+         "patterns":[
+            "Waht is duration of Course for Web Development with Java?"
+         ],
+         "responses":[
+            "Duration of course is 3Months and 2 hours a day"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"Web_Development_Java_cost",
+         "patterns":[
+            "What is the Cost for Web Development with Java?"
+         ],
+         "responses":[
+            "Cost for  Java with web development is Rs 5000.00"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Web Development Java",
+         "patterns":[
+            "Who is mentor for Course on Web Development with Java?"
+         ],
+         "responses":[
+            "Mr.Nagoor Babu is mentor for Course on Web Development with Java"
+         ],
+         "context":[
+            ""
+         ]
+      },  
+      {
+         "tag":"Web_Development_Java_syllabus",
+         "patterns":[
+            "Can you provide full syllabus for Web Development with Java?"
+         ],
+         "responses":[
+            "Please refer w3 schools for web-tech,JDBC,Servlets,JSP"
+         ],
+         "context":[
+            ""
+         ]
+      } 
+   ]
+}
